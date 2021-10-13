@@ -1,3 +1,5 @@
 export interface IUserState {
-    username: string
+    username: string | null
+    usernameUnique: boolean | null
+    challenge: string | null
 }
