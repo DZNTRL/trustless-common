@@ -3,7 +3,7 @@
   "scripts": {
     "build": "npx tsc --skipLibCheck && node ./changeUpdate"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/js/index.js",
   "repository": "git@github.com:joshuaebowling/pro-web-common.git",
   "author": "joshuaebowling <joshuaebowling@gmail.com>",
