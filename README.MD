@@ -22,12 +22,6 @@ Project [About](./docs/meta.md)
 Any time a dependent repository is changed the build scripts will need to be triggered. Soon, there will be a command from the dependant projects to build their dependencies when a build command for the dependant is issued.
 Theoretically, one could replace any of the modules, core/api/statemanager as long as the fulfill the realated contract/s properly. Indeed, the tests can easily be applied to any repository implementing the proper contract/s.
 
-## <a id="customs">Cross-repository customs</a>
-1. [verdaccio](https://verdaccio.org/)
-  To integrate all the repositories in a relatively seamless manner, I'm using a local instance of verdaccio. This is important as all of the publish scripts will push it to the default verdaccio registry address.
-2. [npm-version](https://docs.npmjs.com/cli/v6/commands/npm-version)
-  every time the publish command is run the version will minor bump. This solution will probably have to become more robust with different pubilsh command variants depending on the type of bumping desired.
-
 ## <a id="repo-comp">Repositories & Composition</a>
 #### [Pro-Web-Common](https://github.com/jbotw-proweb/pro-web-common)
 **Overview**
