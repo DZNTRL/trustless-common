@@ -32,7 +32,8 @@ Core contains 2 discrete codes:
   2) the models, repo/data & service layers. It's reasonable to conclude that business classes/models should be in [common](https://github.com/jbotw-proweb/pro-web-common). Nevertheless, they are here for now.
 
 #### [Pro Web Core Tests](https://github.com/jbotw-proweb/pro-web-core-tests)
-
+##### Depends On
+  Pro-Web-Core
 #### [Pro Web App](https://github.com/jbotw-proweb/pro-web-app)
 ##### Depends On
     Pro-Web-Common Pro-Web-Core Pro-Web-App-Cli-Api-Service Pro-Web-App-Cli-State-Manager
