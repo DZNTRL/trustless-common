@@ -14,7 +14,7 @@ Project [About](./docs/meta.md)
 3. Install/setup [verdaccio](https://verdacio.org), if its not already. If the url varies from http://localhost:4873 setup you'll need to change the that in all the build scripts for each repo.
 `npm install verdaccio -g`
 `verdaccio` or `pm2 verdaccio` if you have [pm2](https://pm2.keymetrics.io/) installed.
-4. Run the [install script](./sh/repo-install.sh), or alternately install all the dependencies for each project and build them in the correct order in terms of dependency, see [repositories](#repo-comp) section to undertand the dependency web.
+4. Run the [install script](./sh/repo-install.sh), or alternately install all the dependencies for each project and build them in the correct order in terms of dependency, see [repositories](#repo-comp) section to undertand the dependency web. *Please note that the execution context (usually a terminal) needs to define `rm -rf ./dist/js` as "remove the contents of the folder at the given relative path.* 
 5. Setup [database from model](./docs/sql-setup.md)
 
 ## <a id="using-it">Using it</a>
