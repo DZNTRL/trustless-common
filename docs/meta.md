@@ -11,5 +11,4 @@ Pro Web is a set of repositories that define a set of contracts, enumerables, va
   * use my understanding of how best to use typescript to express the all the conceptual aspects of the system (interfaces, enums, types, validators) as well as implement this system throughout the stack of repositories (data/service/endpoint)
   * a sufficient mysql data-model
   * using a maximal state management principle in a react-redux application, consequently reduce need for or complexity of Component parameters.
-  * use react contexts to build the platform for the app to run
   * creating a [login method](./docs/login-method.md) that uses gpg keys and challenge-decryption to issue a json web token (jwt). Please note my future [plans]() to revolutionize the authentication flow for end users and perhaps even devices
