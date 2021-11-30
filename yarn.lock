@@ -94,6 +94,13 @@ nanoclone@^0.2.1:
   resolved "http://localhost:4873/nanoclone/-/nanoclone-0.2.1.tgz#dd4090f8f1a110d26bb32c49ed2f5b9235209ed4"
   integrity sha512-wynEP02LmIbLpcYw8uBKpcfF6dmg2vcpKqxeH5UcoKEYdExslsdUA4ugFauuaeYdTB76ez6gJW8XAZ6CgkXYxA==
 
+npm-version@^1.1.0:
+  version "1.1.0"
+  resolved "http://localhost:4873/npm-version/-/npm-version-1.1.0.tgz#2960c00d1885a94b95435152ebac3a8b9fcbf5b5"
+  integrity sha1-KWDADRiFqUuVQ1FS66w6i5/L9bU=
+  dependencies:
+    semver "^3.0.1"
+
 property-expr@^2.0.4:
   version "2.0.4"
   resolved "http://localhost:4873/property-expr/-/property-expr-2.0.4.tgz#37b925478e58965031bb612ec5b3260f8241e910"
@@ -113,6 +120,11 @@ regenerator-runtime@^0.13.4:
   version "2.1.2"
   resolved "http://localhost:4873/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+semver@^3.0.1:
+  version "3.0.1"
+  resolved "http://localhost:4873/semver/-/semver-3.0.1.tgz#720ac012515a252f91fb0dd2e99a56a70d6cf078"
+  integrity sha1-cgrAElFaJS+R+w3S6ZpWpw1s8Hg=
 
 seq-queue@^0.0.5:
   version "0.0.5"
