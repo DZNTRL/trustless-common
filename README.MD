@@ -18,7 +18,7 @@ Project [About](./docs/meta.md)
 5. Setup [database from model](./docs/sql-setup.md)
 
 ## <a id="using-it">Using it</a>
-Any time a dependent repository is changed the build scripts will need to be triggered. Soon, there will be adding a command from the terminal projects to build their dependencies when a build command is issued.
+Any time a dependent repository is changed the build scripts will need to be triggered. Soon, there will be a command from the dependant projects to build their dependencies when a build command for the dependant is issued.
 Theoretically, one could replace any of the modules, core/api/statemanager as long as the fulfill the realated contract/s properly. Indeed, the tests can easily be applied to any repository implementing the proper contract/s.
 
 ## <a id="customs">Cross-repository customs</a>
