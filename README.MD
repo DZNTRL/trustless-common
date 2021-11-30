@@ -29,8 +29,8 @@ Common does not have a main export as there's no good way to group interfaces to
 #### [Pro Web Core](https://github.com/jbotw-proweb/pro-web-core)
 Core contains 2 discrete codes: 
   1) the [mysql workbench](https://www.mysql.com/products/workbench/) data model. Please see the partial ["guide"](./docs/sql-setup.md) for setting up an instance.
-  2) the models, repo/data & service layers. One could certainly make the argument that models should be in `commmon`.
-  ** Read more about Core (soon) in the repository's [README]()
+  2) the models, repo/data & service layers. It's reasonable to conclude that business classes/models should be in [common](https://github.com/jbotw-proweb/pro-web-common). Nevertheless, they are here for now.
+
 #### [Pro Web Core Tests](https://github.com/jbotw-proweb/pro-web-core-tests)
 
 #### [Pro Web App](https://github.com/jbotw-proweb/pro-web-app)
