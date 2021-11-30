@@ -4,7 +4,6 @@
 Project [About](./docs/meta.md)
 * [Setup](#setup)
 * [Using It](#using-it)
-* [Customs](#customs)
 * [Repositories & Compositions](#repo-comp)
 
 ## <a id="setup">Setup</a>
