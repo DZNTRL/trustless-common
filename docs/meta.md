@@ -5,7 +5,6 @@ I wanted a personal site for various reasons one of which was for professional d
 
 ## What is it?
 Pro Web is a set of repositories that define a set of contracts, enumerables, validators found [here](#Pro-Web-Common), and also implement the contracts contained in "common" and tests for each repository testing each implementation of a given contract.
-There is also an accompanying Jira board with github integration, open an issue or message me on [Session Messenger](https://getsession.org/) @`0589f966e710b940904b19fea0ccd3cd1342086f15d69aa7adac8ce6d9abcf7b7a` if you have an interest in seeing that.
 
 ## Technical Aims:
   * structuring code into discete parts all drawn together by fulfilling part of larger contract that unites the pieces into one.
