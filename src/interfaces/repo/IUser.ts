@@ -10,4 +10,6 @@ export interface IUser {
     verifyChallenge: (username: string, challenge: string) => Promise<IResponse<boolean>>
     clearChallenge: (username: string) => Promise<IResponse<boolean>>
     get: (username: string) => Promise<IResponse<UserModel>>
+    setLogin: (username: string) => Promise<IResponse<boolean>>
+    setLogout: (username: string) => Promise<IResponse<boolean>> 
 }

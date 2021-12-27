@@ -3,4 +3,6 @@ export interface IUser {
     publicKey: string
     id: number
     isAdmin: boolean
+    lastLogin: Date | null
+    lastLogout: Date | null
 }

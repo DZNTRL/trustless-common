@@ -8,4 +8,5 @@ export interface IUser {
     login: (username: string, challenge: string) => Promise<IResponse<boolean>>
     requestLogin: (username: string) => Promise<IResponse<string>>
     get: (username: string) => Promise<IResponse<UserModel>>
+    logout: (username: string) => Promise<IResponse<boolean>>
 }
