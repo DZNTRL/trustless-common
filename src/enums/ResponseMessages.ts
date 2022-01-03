@@ -2,5 +2,6 @@ export enum ResponseMessages {
     OK = 0,
     NoRecordsUpdated = 1,
     NotFound = 2,
-    DataError = 3
+    DataError = 3,
+    InvalidPublicKey = 4
 }

@@ -39,8 +39,8 @@ export class User implements IUser {
             resp.IsError = true
             resp.Message = ResponseMessages.NoRecordsUpdated.toString()
         } else {
-            if(username === goodUser && publicKey === goodUser) {
-            
+            if(username === goodUser && publicKey === goodChallenge) {
+                
             } else {
                 resp.Data = 0
                 resp.Message = ResponseMessages.NoRecordsUpdated.toString()
@@ -83,7 +83,7 @@ export class User implements IUser {
         })
     }
     login(username, challenge) {
-        const resp = new Response<boolean>(true)
+        const resp = new Response<IUserModel>({id: 0, username: "", publicKey: "", isAdmin: false, lastLogin: null, lastLogout: null})
         if(username === null) {
             resp.Data = null
             resp.IsError = true
@@ -92,11 +92,11 @@ export class User implements IUser {
             if(username === goodUser) {
 
             } else {
-                resp.Data = false
+                resp.Data = null
                 resp.Message = ResponseMessages.NotFound.toString()
             }    
         }
-        return new Promise<IResponse<boolean>>((res, rej) => {
+        return new Promise<IResponse<IUserModel>>((res, rej) => {
             res(resp)
         })
     }
